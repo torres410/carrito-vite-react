@@ -1,6 +1,13 @@
 import { data } from '../data';
 
-export const ListaProductos = () => {
+export const ListaProductos = ({
+		totalProductos,
+		setTotalProductos,
+		conteoProductos,
+		setConteoProductos,
+		total,
+		setTotal,
+	}) => {
 
 	return (
 		<div className='contenedor-items'>
