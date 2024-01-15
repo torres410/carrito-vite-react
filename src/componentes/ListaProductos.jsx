@@ -1,14 +1,31 @@
 import { data } from '../data';
 
 export const ListaProductos = ({
-		totalProductos,
-		setTotalProductos,
-		conteoProductos,
-		setConteoProductos,
-		total,
-		setTotal,
+	totalProductos,
+	setTotalProductos,
+	conteoProductos,
+	setConteoProductos,
+	total,
+	setTotal,
 	}) => {
 
+	const agregarProducto = producto => {
+		if (totalProductos.find(item => item.id === producto.id)) {
+			const productos = totalProductos.map(item =>
+				item.id === producto.id
+					? { ...item, cantidad: item.cantidad + 1 }
+					: item
+			);
+			setTotal(total + producto.precio * producto.cantidad);
+			setConteoProductos(conteoProductos + producto.cantidad);
+			return setTotalProductos([...productos]);
+		}
+
+		setTotal(total + producto.precio * producto.cantidad);
+		setConteoProductos(conteoProductos + producto.cantidad);
+		setTotalProductos([...totalProductos, producto]);
+	};
+	
 	return (
 		<div className='contenedor-items'>
 			{data.map(producto => (
