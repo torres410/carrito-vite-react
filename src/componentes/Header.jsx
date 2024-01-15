@@ -10,6 +10,16 @@ export const Header = ({
 }) => {
 	const [activo, setActivo] = useState(false);
 
+	const eliminarProducto = producto => {
+		const resultados = totalProductos.filter(
+			item => item.id !== producto.id
+		);
+
+		setTotal(total - producto.precio * producto.cantidad);
+		setConteoProductos(conteoProductos - producto.cantidad);
+		setTotalProductos(resultados);
+	};
+
 	return (
 		<header>
 			<h1>Tienda en línea</h1>
