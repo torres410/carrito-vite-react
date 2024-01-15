@@ -20,6 +20,12 @@ export const Header = ({
 		setTotalProductos(resultados);
 	};
 
+	const limpiarCarrito = () => {
+		setTotalProductos([]);
+		setTotal(0);
+		setConteoProductos(0);
+	};
+
 	return (
 		<header>
 			<h1>Tienda en línea</h1>
