@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import { Header } from './componentes/Header';
+import { ListaProductos } from './componentes/ListaProductos';
 
 function App() {
 	const [totalProductos, setTotalProductos] = useState([]);
@@ -6,7 +8,24 @@ function App() {
 	const [conteoProductos, setConteoProductos] = useState(0);
 
 return (
-	
+	<>
+		<Header
+			totalProductos={totalProductos}
+			setTotalProductos={setTotalProductos}
+			total={total}
+			setTotal={setTotal}
+			conteoProductos={conteoProductos}
+			setConteoProductos={setConteoProductos}
+		/>
+		<ListaProductos
+			totalProductos={totalProductos}
+			setTotalProductos={setTotalProductos}
+			total={total}
+			setTotal={setTotal}
+			conteoProductos={conteoProductos}
+			setConteoProductos={setConteoProductos}
+		/>
+	</>
 	);
 }
 
