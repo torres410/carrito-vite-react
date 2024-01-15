@@ -8,6 +8,7 @@ export const Header = ({
 	setConteoProductos,
 	setTotal,
 }) => {
+	const [activo, setActivo] = useState(false);
 
 	return (
 		<header>
