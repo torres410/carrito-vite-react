@@ -1,7 +1,23 @@
-import React from 'react'
+import { data } from '../data';
 
 export const ListaProductos = () => {
+
 	return (
-		<div>ListaProductos</div>
-	)
-}
+		<div className='contenedor-items'>
+			{data.map(producto => (
+				<div className='item' key={producto.id}>
+					<figure>
+						<img src={producto.img} alt={producto.nombreProducto} />
+					</figure>
+					<div className='info-producto'>
+						<h2>{producto.nombreProducto}</h2>
+						<p className='precio'>${producto.precio}</p>
+						<button onClick={() => agregarProducto(producto)}>
+							Añadir al carrito
+						</button>
+					</div>
+				</div>
+			))}
+		</div>
+	);
+};
