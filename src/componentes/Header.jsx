@@ -1,6 +1,14 @@
-import React from 'react'
+import { useState } from 'react';
 
-export const Header = () => {
+export const Header = ({
+	totalProductos,
+	setTotalProductos,
+	total,
+	conteoProductos,
+	setConteoProductos,
+	setTotal,
+}) => {
+
 	return (
 		<header>
 			<h1>Tienda en línea</h1>
