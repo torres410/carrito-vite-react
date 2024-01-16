@@ -1,8 +1,28 @@
-# React + Vite
+## Nombre del proyecto
+> Carrito de compras con Vite y React.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Demo
+https://torres410.github.io/carrito-vite-react/
 
-Currently, two official plugins are available:
+### Instalación
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Clona el repositorio
+`git clone https://github.com/torres410/carrito-vite-react.git`
+
+- Navega al directorio del proyecto
+`cd carrito-vite-react`
+
+- Instala las dependencias
+`npm install`
+
+### Desarrollo
+
+- Inicia el servidor de desarrollo
+`npm run dev`
+
+- Visita `http://localhost:3000` en tu navegador para ver la aplicación en desarrollo. La página se recargará automáticamente al realizar cambios en el código fuente.
+
+### Tecnologías Utilizadas
+
+	Vite - Entorno de desarrollo rápido para aplicaciones web.
+	React - Biblioteca de JavaScript para construir interfaces de usuario.
