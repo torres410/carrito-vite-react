@@ -1,7 +1,7 @@
 export const data = [
 	{
 		id: 1,
-		img: 'https://images.unsplash.com/photo-1604671801908-6f0c6a092c05?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+		img: 'https://images.unsplash.com/photo-1612902377756-414b2139d5e2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
 		nombreProducto: 'Zapatos',
 		precio: 90,
 		cantidad: 1,
@@ -15,9 +15,51 @@ export const data = [
 	},
 	{
 		id: 3,
-		img: 'https://images.unsplash.com/photo-1623820919239-0d0ff10797a1?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+		img: 'https://images.unsplash.com/photo-1625750319971-ee4b61e68df8?q=80&w=2129&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
 		nombreProducto: 'Mouse',
 		precio: 35,
+		cantidad: 1,
+	},
+	{
+		id: 4,
+		img: 'https://images.unsplash.com/photo-1623998021446-45cd9b269056?q=80&w=2079&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+		nombreProducto: 'Reloj',
+		precio: 100,
+		cantidad: 1,
+	},
+	{
+		id: 5,
+		img: 'https://images.unsplash.com/photo-1528500731848-8208e0d62b5f?q=80&w=2066&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+		nombreProducto: 'Bocina',
+		precio: 60,
+		cantidad: 1,
+	},
+	{
+		id: 6,
+		img: 'https://images.unsplash.com/photo-1572536147248-ac59a8abfa4b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGF1ZGlmb25vc3xlbnwwfHwwfHx8MA%3D%3D',
+		nombreProducto: 'Auriculares',
+		precio: 30,
+		cantidad: 1,
+	},
+	{
+		id: 7,
+		img: 'https://images.unsplash.com/photo-1587310311582-aa7610e90826?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+		nombreProducto: 'Lentes de sol',
+		precio: 20,
+		cantidad: 1,
+	},
+	{
+		id: 8,
+		img: 'https://images.unsplash.com/photo-1647880087459-30f07c4faba5?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%',
+		nombreProducto: 'Smartphone',
+		precio: 200,
+		cantidad: 1,
+	},
+	{
+		id: 9,
+		img: 'https://images.unsplash.com/photo-1579586337278-3befd40fd17a?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+		nombreProducto: 'Smartwatch',
+		precio: 50,
 		cantidad: 1,
 	},
 ];
