@@ -7,4 +7,5 @@ export default defineConfig({
 		port: 3000,
 	},
 	plugins: [react()],
+	base: "https://torres410.github.io/carrito-vite-react/",
 });
